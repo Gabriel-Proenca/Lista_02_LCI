@@ -10,6 +10,4 @@ for i in range(len(numeros)):
     else:
         numeros[i] = math.sqrt(numeros[i])
 
-print("\nValores armazenados:")
-
-print(numeros)
+print("\nValores armazenados:", *numeros)
