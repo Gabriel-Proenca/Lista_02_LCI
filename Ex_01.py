@@ -10,4 +10,6 @@ for i in range(len(numeros)):
     else:
         numeros[i] = math.sqrt(numeros[i])
 
-print("\nValores armazenados:", *numeros)
+formatados = ','.join(map(str,numeros))
+
+print("\nValores armazenados:", formatados)
